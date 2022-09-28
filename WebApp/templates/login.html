@@ -1,0 +1,24 @@
+{% extends 'commons.html' %}
+
+{% block content %}
+    <h1>{% block title %} Login Page {%endblock%} </h1>
+
+    <form action="/loginuser" method="post">
+        <table>
+            <tr>
+
+                <td><input type="text" name="username" placeholder="User Name"></input></td>
+            </tr>
+            <tr>
+                <td><input type="password" name="password" placeholder="Password"></input></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Login"></input></td>
+            </tr>
+        </table>
+    </form>
+
+<b>If you are a New User,</b>
+<a href="/newuser"><b> Click here to Register</b></a>
+{% endblock %}
+

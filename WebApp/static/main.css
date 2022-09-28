@@ -1,0 +1,52 @@
+        header{
+
+            text-align:center;
+            background-color:lightblue;
+            color:green;
+
+        }
+        footer{
+            background-color:green;
+            text-align:center;
+            border: 2px solid white;
+            color:white;
+        }
+        .content{
+            border: 2px solid white;
+            min-height:78vh;
+
+            background-color:lightblue;
+        }
+        #regtable2{
+            width:50%;
+            margin: 0 auto;
+        }
+        input{
+        border-radius:10px;
+            font-size:20px;
+            width: 100%;
+        margin: 8px 0;
+        padding: 12px 20px;
+        border: 2px solid green;
+        box-sizing: border-box;
+        }
+        body{
+            margin:0px;
+            font-family: Calibri, Helvetica, sans-serif;
+            background-color:lightblue;
+        }
+        input:focus{
+            outline:none;
+        }
+        input[type='submit']{
+            width:100%;
+            padding:15px 15px;
+            margin:10px 0;
+
+            border-radius:10px;
+            font-size:20px;
+            color:white;
+            cursor:pointer;
+            background-color: green;
+
+        }
